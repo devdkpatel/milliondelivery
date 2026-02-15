@@ -12,6 +12,21 @@
 </head>
 <body>
     <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-inner">
+                    <div class="top-header-contact">
+                        <a href="tel:+1 (888) 645 4661">+1 (888) 645 4661</a>
+                        <a href="mailto:info@milliondeliveries.com">info@milliondeliveries.com</a>
+                    </div>
+                    <div class="header-sococal-media">
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/facebook.svg" alt="Facebook"></a> 
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/linkedin.svg" alt="LinkedIn"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="main-header">
                 <div class="header-menu">
@@ -53,4 +68,5 @@
 
             </div>
         </div>
+
     </header>
